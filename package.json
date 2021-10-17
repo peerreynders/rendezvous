@@ -1,0 +1,44 @@
+{
+  "name": "rendezvous",
+  "description": "A tiny example demonstrating rendezvous architecture concepts",
+  "version": "0.0.1",
+  "author": "Peer Reynders",
+  "license": "MIT",
+  "homepage": "https://github.com/peerreynders/rendezvous#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peerreynders/rendezvous.git"
+  },
+  "private": "true",
+  "engines": {
+    "node": "14.x"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "npm run build && npm run serve",
+    "build": "rollup -c",
+    "serve": "node src/index.js",
+    "lint": "eslint ./src",
+    "format": "prettier --write ./src",
+    "uuid": "node uuid.js"
+  },
+  "dependencies": {
+    "fastify": "^3.22.0",
+    "fastify-static": "^4.4.2",
+    "uhtml-ssr": "^0.7.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-node-resolve": "^13.0.5",
+    "@types/babel__core": "^7.1.16",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "frappe-charts": "^1.6.2",
+    "prettier": "^2.4.1",
+    "rollup": "^2.58.0",
+    "uhtml": "^2.7.6",
+    "wicked-elements": "^3.1.2"
+  }
+}
