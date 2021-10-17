@@ -1,0 +1,80 @@
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue,
+               helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+}
+
+body {
+  background: #f3f3f3;
+  color: #252525;
+  line-height: 1.5;
+}
+
+h1 {
+  line-height: 1.1;
+  font-weight: 900;
+}
+
+.o-frame {
+  min-height: 950px;
+  min-width: 350px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+
+.o-frame > .c-chart {
+  max-width: 600px;
+  width: 100%;
+  flex-grow: 1;
+  align-self: center;
+}
+
+.o-frame > label {
+  font-size: 1.2rem;
+}
+
+.o-frame > .c-chart:empty {
+  align-self: start;
+}
+
+.o-container--enabled {
+  flex-grow: 0;
+}
+
+.o-container--disabled {
+  flex-grow: 1;
+}
+
+.c-chart .frappe-chart {
+  overflow: visible;
+}
+
+fieldset {
+  display: flex;
+  justify-content: end;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  min-width: 210px;
+}
+
+fieldset > button {
+  font-size: 1rem;
+  margin-right: auto;
+}
+
+fieldset > label {
+  margin-top: auto;
+  margin-right: 0.5rem;
+  margin-bottom: auto;
+}
+
+text.title,
+text.legend-dataset-text {
+  font-size: 16px;
+}
