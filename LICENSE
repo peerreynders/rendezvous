@@ -25,8 +25,15 @@ SOFTWARE.
 
 ******************************************************************************
 
-THIRD-PARTY SOFTWARE
+******************************************************************************
+media/TheHumbleDialogBox.pdf
+******************************************************************************
 
+Copyright (c) 2002, Michael Feathers, https://www.r7krecon.com/
+
+******************************************************************************
+
+THIRD-PARTY SOFTWARE
 
 1. fastify: Fastify is a web framework focused on developer experience.
 2. fastify-static: Plugin for serving static files as fast as possible.

@@ -13,7 +13,7 @@ The code example was inspired by [this tweet](https://twitter.com/ryancarniato/s
 ## So what's the deal?
 Calling this an architecture is a bit grandious if it wasn't for the fact that it requires a perspective that arches over both server and client (browser). It also starts with the server and *then* moves to the client rather than primarily focusing on the client to only *later* consider server needs as it [is typical](https://adactio.com/journal/16404) with most [SSR approaches](https://developers.google.com/web/updates/2019/02/rendering-on-the-web#rehydration).
 
-It extends the notion present in [progressive enhancement](https://alistapart.com/article/progressiveenhancementwithjavascript/) and blends it with the vision behind Michael Feather's [Humble Dialog Box](https://drive.google.com/file/d/16u0B2JOmpa3K_6r95MwdFlaIqA23Q1Iv/view?usp=sharing) largely with the aim to arrive at UI code that is so minimal that testing it can be delayed until integration testing.
+It extends the notion present in [progressive enhancement](https://alistapart.com/article/progressiveenhancementwithjavascript/) and blends it with the vision behind Michael Feather's [Humble Dialog Box](https://github.com/peerreynders/rendezvous/blob/main/media/TheHumbleDialogBox.pdf) largely with the aim to arrive at UI code that is so minimal that testing it can be delayed until integration testing.
 
 > You should test things that might break. If code is so simple that it can't possibly break and you measure that the code in question doesn't actually break in practice then you shouldn't write a test for it.
 
